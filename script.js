@@ -4,6 +4,7 @@ let count = 0;
 document.getelementBYId("incrementBtn").addEventListner("click" function(){
 
 	alert("current value: " count);
+	alert(count);
 	count++;
 	 document.getElementById("counter").textContent = count;
 });
